@@ -110,21 +110,21 @@ CREATE TABLE Subscriber_profile (
 ### 1. Conceptual Model
 This diagram represents the high-level view of the Disney+ Hotstar system, including core entities like **Subscriber Profile**, **Devices**, **Subscription Type**, **Playlist**, **Variant**, and **Video**, along with their main relationships.
 
-![Conceptual Model](conceptual_model.png)
+![Conceptual Model](Conceptual_model.png)
 
 ---
 
 ### 2. Relational Model
 The relational model shows how the conceptual entities are converted into relational tables with **primary keys**, **foreign keys**, and **bridge tables** such as `login_devices` and `video_genre`.
 
-![Relational Model](relational_model.png)
+![Relational Model](Relational_Model.png)
 
 ---
 
 ### 3. Physical Model
 The physical model includes actual data types for each column (e.g., `int4`, `varchar(50)`, `timestamp`, `time`) and represents how the schema is implemented in the database.
 
-![Physical Model](physical_model.png)
+![Physical Model](Physical_Model.png)
 
 ## 📊 Sample Data Used  
 
